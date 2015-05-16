@@ -1,0 +1,478 @@
+#wintertext
+
+# some odd autosuggestion
+~_amavisd
+
+#home wo cd
+~
+
+# go to home
+cd ~
+
+# mistype
+cd homt
+
+# view history in less pager or pipe h into pager
+history | less
+
+# pipe history into tail and reverse order
+history | tail -r
+
+# pull up history man page
+man history
+
+# history wo args
+history
+
+# list files in current dir
+ls
+
+
+cd home
+cd /
+cd root
+root
+../
+...
+ls ~
+../..
+cd repos/
+cd
+..
+cd Shared/
+cd Shar
+cd ..
+pwd
+cd GitPractice/
+cd repos
+cd src
+ls -l
+cd /Users/draft
+cd /User/draft
+cd /User/draft/
+cd /user/DRAFT
+git info
+cd .git/
+ls -a
+man ls
+ls -lrt
+ls -rt
+ls -r
+open bcedit.cfg
+ls -lt
+list -lt
+list lt
+ls -t
+git branch -d ~/master
+git branch -d master
+git branch -d ~/repos/master
+git -help
+git exit
+git branch
+git checkout
+git branch master ~/repos/GitPractice/
+clear
+git status
+git checkout master
+git commit
+git branch -d feature
+git branch -d checkout
+git branch master
+git push origin :feature
+git -rm branch checkout
+git rm branch checkout
+git checkout checkout
+git checkout feature
+git branch -d
+brew git update
+git update
+cd GitPractice
+cd
+git q
+git rm branch
+git local
+git local branch
+git help
+git reset
+git exit branch
+echo $PATH
+exit
+eixt
+subl /etc/paths
+echo $EDITOR
+echo $editor
+echo
+echo editor
+subl ~/.config/fish/config.fish
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+rm /usr/local/bin/subl
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+cd G
+git rm
+git show
+git checkout -- repos/hw05_donut-shop-III/hw5-donut_shop.html
+brew info fish
+brew info f
+brew in
+git branch checkout master
+git branc
+nano ~/.config/fish/functions/fish_prompt.fish
+open ~/.config/fish/functions/fish_prompt.fish
+fish_update_completions
+fish_up
+help
+curl -fsSL http://git.io/beJs | ruby
+cp hw5-donut.css && hw5-donut_shop.html /Users/draft/repos/GitPractice
+cd hw05_donut-shop-III/
+cd .
+cd ~ repos/GifPractice
+cd GitPractic
+cd ~repos
+mv hw5-donut.css ~repos
+mv hw5-donut.css ~repos/
+cd /tmp
+cd tmp
+cp * /tmp
+cp hw5-donut.css /tmp
+cp hw5-donut.css
+cp hw5-donut.css && hw5-donut_shop.html
+cp hw5-donut.css && hw5-donut_shop.html /tmp
+git init
+mkdir GitPractice
+cd .git
+rm -rf -- .git
+rm .git
+git add
+get status
+git config --list
+git config --global
+git config
+git push origin feature
+git branch feature
+git commit -m "Added Foundations HW5"
+git push
+git add hw5-donut_shop.html
+git stage
+git add hw5-donut.css
+cd hw..
+cd hw
+which git
+brew doctor
+man jshint
+which jshint
+jshint
+which linter
+hash -r
+brew update
+npm -g list
+npm list
+which node
+ls -lahG /usr/local/bin/
+brew info node
+npm
+brew list
+node list
+jshint ~/repos/hw03_donut-shop/hw4-donut.js
+git config --global user.name "Jason E Anderson"
+git config user.name
+git config username
+get config username
+git --help
+git open config
+git -v
+open --global
+git config --global user.email "ja@adadu.com"
+git config --global user.name "adadu"
+git
+$git config --global user.name "adadu"
+$git
+$ git config --global user.name "adadu"
+$SHELL -l -c '/usr/bin/which jshint'
+jshint -v
+jshint-v
+brew -v
+node
+npn
+gcc
+which gcc
+gcc -v
+which npn
+which npm
+node -v
+cd~
+cd /usr/bin
+cd usr/bin
+home
+echo "PATH=\"/usr/local/bin:$PATH\"" > ~/.bash_profile
+echo "PATH=\"/usr/local/bin:$PATH\"" >> ~/.bash_profile
+which gcc-4.9
+cd bin
+cd local
+gcc-v
+cd ../
+cd usr
+cd /usr/local
+which gcc-4.8
+npm -v
+npm install -g http-server node-inspector forever nodemon
+curl -L https://www.npmjs.com/install.sh | sh
+echo prefix=~/.node >> ~/.npmrc
+brew install node --without-npm
+brew uninstall node
+rm -rf /usr/local/lib/node_modules
+brew unlink node && brew link node
+brew link npm
+npm update npm -g
+npm install -g jshint
+brew install jshint
+brew install npm
+ll
+sudo chown draft .bash_profile
+chown draft .bash_profile
+chown -h
+alias ll="ls -lahG"
+ls -lahG
+open ~/.bash_profile
+defaults write com.apple.finder AppleShowAllFiles -bool YES; killall Finder
+install xquartz
+brew install xquartz
+brew install node
+brew install gcc
+xcode -v
+quit
+brew install xcode
+brew search gcc
+sudo xcode-select -switch /Developer
+hash xquartz
+brew install xquartz 2.7.7
+less moving_around.txt
+ls -t
+history -t
+-t
+moving_around.txt | less
+ls
+history > moving_around.txt
+~_amavisd
+~
+cd ~
+cd homt
+history | less
+history | tail -r
+man history
+history
+cd home
+cd /
+cd root
+root
+../
+...
+ls ~
+../..
+cd repos/
+cd
+..
+cd Shared/
+cd Shar
+cd ..
+pwd
+cd GitPractice/
+cd repos
+cd src
+ls -l
+cd /Users/draft
+cd /User/draft
+cd /User/draft/
+cd /user/DRAFT
+git info
+cd .git/
+ls -a
+man ls
+ls -lrt
+ls -rt
+ls -r
+open bcedit.cfg
+ls -lt
+list -lt
+list lt
+git branch -d ~/master
+git branch -d master
+git branch -d ~/repos/master
+git -help
+git exit
+git branch
+git checkout
+git branch master ~/repos/GitPractice/
+clear
+git status
+git checkout master
+git commit
+git branch -d feature
+git branch -d checkout
+git branch master
+git push origin :feature
+git -rm branch checkout
+git rm branch checkout
+git checkout checkout
+git checkout feature
+git branch -d
+brew git update
+git update
+cd GitPractice
+cd
+git q
+git rm branch
+git local
+git local branch
+git help
+git reset
+git exit branch
+echo $PATH
+exit
+eixt
+subl /etc/paths
+echo $EDITOR
+echo $editor
+echo
+echo editor
+subl ~/.config/fish/config.fish
+ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+rm /usr/local/bin/subl
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+cd G
+git rm
+git show
+git checkout -- repos/hw05_donut-shop-III/hw5-donut_shop.html
+brew info fish
+brew info f
+brew in
+git branch checkout master
+git branc
+nano ~/.config/fish/functions/fish_prompt.fish
+open ~/.config/fish/functions/fish_prompt.fish
+fish_update_completions
+fish_up
+help
+curl -fsSL http://git.io/beJs | ruby
+cp hw5-donut.css && hw5-donut_shop.html /Users/draft/repos/GitPractice
+cd hw05_donut-shop-III/
+cd .
+cd ~ repos/GifPractice
+cd GitPractic
+cd ~repos
+mv hw5-donut.css ~repos
+mv hw5-donut.css ~repos/
+cd /tmp
+cd tmp
+cp * /tmp
+cp hw5-donut.css /tmp
+cp hw5-donut.css
+cp hw5-donut.css && hw5-donut_shop.html
+cp hw5-donut.css && hw5-donut_shop.html /tmp
+git init
+mkdir GitPractice
+cd .git
+rm -rf -- .git
+rm .git
+git add
+get status
+git config --list
+git config --global
+git config
+git push origin feature
+git branch feature
+git commit -m "Added Foundations HW5"
+git push
+git add hw5-donut_shop.html
+git stage
+git add hw5-donut.css
+cd hw..
+cd hw
+which git
+brew doctor
+man jshint
+which jshint
+jshint
+which linter
+hash -r
+brew update
+npm -g list
+npm list
+which node
+ls -lahG /usr/local/bin/
+brew info node
+npm
+brew list
+node list
+jshint ~/repos/hw03_donut-shop/hw4-donut.js
+git config --global user.name "Jason E Anderson"
+git config user.name
+git config username
+get config username
+git --help
+git open config
+git -v
+open --global
+git config --global user.email "ja@adadu.com"
+git config --global user.name "adadu"
+git
+$git config --global user.name "adadu"
+$git
+$ git config --global user.name "adadu"
+$SHELL -l -c '/usr/bin/which jshint'
+jshint -v
+jshint-v
+brew -v
+node
+npn
+gcc
+which gcc
+gcc -v
+which npn
+which npm
+node -v
+cd~
+cd /usr/bin
+cd usr/bin
+home
+echo "PATH=\"/usr/local/bin:$PATH\"" > ~/.bash_profile
+echo "PATH=\"/usr/local/bin:$PATH\"" >> ~/.bash_profile
+which gcc-4.9
+cd bin
+cd local
+gcc-v
+cd ../
+cd usr
+cd /usr/local
+which gcc-4.8
+npm -v
+npm install -g http-server node-inspector forever nodemon
+curl -L https://www.npmjs.com/install.sh | sh
+echo prefix=~/.node >> ~/.npmrc
+brew install node --without-npm
+brew uninstall node
+rm -rf /usr/local/lib/node_modules
+brew unlink node && brew link node
+brew link npm
+npm update npm -g
+npm install -g jshint
+brew install jshint
+brew install npm
+ll
+sudo chown draft .bash_profile
+chown draft .bash_profile
+chown -h
+alias ll="ls -lahG"
+ls -lahG
+open ~/.bash_profile
+defaults write com.apple.finder AppleShowAllFiles -bool YES; killall Finder
+install xquartz
+brew install xquartz
+brew install node
+brew install gcc
+xcode -v
+quit
+brew install xcode
+brew search gcc
+sudo xcode-select -switch /Developer
+hash xquartz
+brew install xquartz 2.7.7
