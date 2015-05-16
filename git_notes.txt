@@ -1,0 +1,143 @@
+# Notes from 0516 - CF Unix Git Workshop
+
+http://cewing.github.io/cf-uge/making.html#19
+
+unix & git
+0516_cf-unix-git
+
+submit hw, group proj
+integrate w version control
+
+apps laptop, mobile, in browser, server
+biggest and most apps on unix servers
+more stable, faster, compatible, free/open
+unix is os, multi process - appear to be doing lots at once
+multi user many users logged in
+unix dev by ken thompson and dennis ritchie in ATT bell labs
+released in 1973
+
+unix timeline
+commercial graphics - unix att, hp
+free versions bsd, sunos, darwin - mac os, free bsd, open bsd
+platform quirks
+linux (ubuntu & android)
+darwin (mac)
+
+still usin some stuff from 40 yrs ago ex. width
+root level === low level
+
+1. data as plaintext files ASCI
+editor:
+  fontFamily: "Menlo"
+
+2. many small programs
+why not 1 big program?
+hard to update
+monolithic
+memory intensive, non efficient
+part may crash entire system
+many small programs instead of large
+
+3. unix input-output redirection
+piping in unix
+history > file || screen || both
+
+data sas plaing text
+many small programs
+input output redirection
+
+kernal
+interacts with hardware, apps ask kernal
+other programs <> kernal <>cpu
+                         <>memory
+                         <>devices (screen, audio, kbd, battery/power)
+unix kernal safe from hackers
+
+unix shell
+another program, user interface to kernal
+type input, get output
+technically ways to interact is called shell
+handle low level details
+
+uname
+darwin
+mingw emulation (windows)
+linux (linux)
+
+aboslute path starts w /
+vs relative (does not)
+
+command flag
+ls
+list
+ls -t spec order last modified
+ls -l spec list in long format for details
+ls -lt combined -l and -t
+ls -r reverse order
+ls -rt
+man
+\ (backwards slash) for when space is in path
+
+all names need to be lowercase in unix
+.. moves up level (parent dir)
+ls ~ from root and you can see files in home
+
+* * *
+lunch w joao & katie kim
+history | tail -r //pipe history into tail and reverse
+history | less //redirect history into pager called less
+
+unix philosphy
+do one thing and do it well
+
+every output can become the input of another program
+
+uses of version control
+1. backup
+2. share source code
+3. collab
+
+repository collection of version of code
+little pink x means that
+
+git init initializes repo, place in directory you want to track or have new repo
+git add <file>
+(git rm --cached <file> to unstage file)
+git commit -m 'Add unix notes, initial draft.'
+(comment is in imperative mode means command, descript)
+clean tracked and staged (committed) vs dirty tracked but not commited
+commit snapshots are stored in .git folder - never have to go in
+lines to be added or removed
+
+5 things a snapshot commit
+1 author
+2 timestamp
+3 msg / comment
+4 unique id (also called hash)
+5 change
+
+modified files are unstaged untracked
+add
+commit
+
+git diff // show differnece in new unstaged to staged
+
+version control system
+history of everything you do to your files
+a graph of 'states' in which your files have existed
+
+git init = state A
+git commit -m 'Good notes' = state B
+git commit -m 'Made changes to sth' = state C
+
+A - B - C
+
+HEAD is label for recent commit (sticky note)
+
+20 lines or more you should commit
+more than 1-2 sentences for comment is too much
+
+git init, git will create brach master
+git branch // show branches
+git branch <name> // create new branch
+git checkout git-notes // get into git-notes dir
