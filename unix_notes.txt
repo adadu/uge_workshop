@@ -1,4 +1,7 @@
-#wintertext
+# List hidden directories
+ls -a
+
+#wintertxt
 
 # some odd autosuggestion
 ~_amavisd
