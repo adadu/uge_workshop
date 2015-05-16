@@ -141,3 +141,7 @@ git init, git will create brach master
 git branch // show branches
 git branch <name> // create new branch
 git checkout git-notes // get into git-notes dir
+
+rm -Rf .git // removes repo
+
+
