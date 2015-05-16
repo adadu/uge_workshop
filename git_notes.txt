@@ -144,4 +144,19 @@ git checkout git-notes // get into git-notes dir
 
 rm -Rf .git // removes repo
 
+login to github, create new repo, come up w, copy link
+git remote add origin git@github.com:adadu/uge_workshop.git
+
+create key
+ssh-keygen -t rsa
+will save in /Users/draft/.ssh/id_rsa
+
+pipe rsa to pbcopy
+# cat ~/.ssh/id_rsa.pub | pbcopy
+copies rsa to mac clipboard basically
+github
+goto cogwheel (github settings)
+ssh keys
+copy rsa and title computer
+save
 
